@@ -8,10 +8,14 @@ public class Main {
         Dinosaur diplodocus = new Dinosaur();
         Dinosaur pterodactyl = new Dinosaur();
 
+
         t_rex.roar();
         velociraptor.roar();
         diplodocus.roar();
         pterodactyl.roar();
+
+        t_rex.color = "blue";
+        System.out.println("A t-rex is " + t_rex.color);
 
 
     }
